@@ -114,7 +114,7 @@ extern "C" {
   therfore maximum key size is 13)
 */
 
-#define CC3000_MINIMAL_RX_SIZE      (130 + 1)
+#define CC3000_MINIMAL_RX_SIZE      (512 + 1)
 #define CC3000_MAXIMAL_RX_SIZE      (1519 + 1)
 
 /*Defines for minimal and maximal TX buffer size.
